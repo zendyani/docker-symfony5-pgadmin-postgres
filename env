@@ -1,0 +1,16 @@
+###> General config
+COMPOSE_PROJECT_NAME=learning
+
+###> PgAdmin config
+PGADMIN_EMAIL=mail@pgadmin.com
+PGADMIN_PASSWORD=pgPassWord
+
+###> Postgres config
+DATABASE_USER=pg_user
+DATABASE_PASSWORD=pg_password
+DATABASE_NAME=pg_db
+DATABASE_CONTAINER_NAME=container_postgres
+
+###> symfony/framework-bundle ###
+APP_ENV=dev
+APP_SECRET=8f4487094997e4e3b810c28b638da278
