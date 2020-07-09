@@ -77,7 +77,9 @@ docker-compose up --build
 
 # Help
 [Docker cheatsheet](https://github.com/wsargent/docker-cheat-sheet)
+
 [Php alpine image](https://github.com/codecasts/php-alpine)
+
 [Docker for symfony](http://www.inanzzz.com/index.php/post/isb1/alpine-docker-setup-for-symfony-applications)
 
 # License
