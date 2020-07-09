@@ -13,16 +13,16 @@ After installing and configuring docker clone this repo with the following comma
 git clone https://github.com/zendyani/docker-symfony5-pgadmin-postgres.git
 ```
 
-## Configure the project
+## Configuring the project
 Your docker-compose.yaml use the file .env to provision informations like Posgress credential
 Or pgAdmin creadential so you need to rename the env file to .env and make the neccessary modification.
 
-## File organisation
-"code" will contain your symfony project code.
-"data/postgres" will contain files concerning posgress container.
-"logs" will contain nginx access and error logs.
-"nginx" will contain nginx configuration files that will be mapped inside nginx container.
-"php-fpm" will contain the Dockerfile used to generate the image with all the requirements
+## Files organisation
+- "code" will contain your symfony project code.
+- "data/postgres" will contain files concerning posgress container.
+- "logs" will contain nginx access and error logs.
+- "nginx" will contain nginx configuration files that will be mapped inside nginx container.
+- "php-fpm" will contain the Dockerfile used to generate the image with all the requirements
 of a modern symfony app and the php-fpm config file that will be used for the php-fpm container
 
 # Work with symfony
