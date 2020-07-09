@@ -51,7 +51,7 @@ docker-compose run php-fpm symfony console make:....
 
 As you can see it's always "docker-compose run php-fpm" followed by the command, if you're a docker beginner the first statement means run the command inside php-fpm container, "php-fpm" represent the name of the container used in docker-compose.yaml
 
-# Tricks
+# More docker commands
 
 ```
 # List container created by docker-compose
