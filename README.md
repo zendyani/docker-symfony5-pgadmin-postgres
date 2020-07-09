@@ -10,7 +10,7 @@ To be able to run the project you'll need docker to be installed, also configure
 # Getting started
 After installing and configuring docker clone this repo with the following command:
 ```
-git clone ....
+git clone https://github.com/zendyani/docker-symfony5-pgadmin-postgres.git
 ```
 
 ## Configure the project
